@@ -1,5 +1,12 @@
 # Offsite Payments CHANGELOG
 
+### version 2.7.29 (January 29, 2024)
+- Address CVE-2020-8165 and CVE-2022-30123
+  - Update rack to 2.2.10
+  - Update rails to 5.2.8.1
+  - Update activesupport 5.2.8.1
+  - Update nokogiri and other supporting gems
+
 ### version 2.7.28 (February 11, 2021)
 - [Realex] #351
   - Regex updates for address and city

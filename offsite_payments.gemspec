@@ -40,11 +40,11 @@ Gem::Specification.new do |s|
     }
   end
 
-  s.add_dependency('activesupport', '>= 5.2.3')
+  s.add_dependency('activesupport', '>= 5.2.4.3')
   s.add_dependency('i18n', '>= 0.6.6')
   s.add_dependency('builder', '>= 2.1.2', '< 4.0.0')
   s.add_dependency('active_utils', '~> 3.3.0')
-  s.add_dependency('nokogiri', ">= 1.8.5")
+  s.add_dependency('nokogiri', ">= 1.11.1")
   s.add_dependency('actionpack', '>= 5.2.3')
   s.add_dependency('actionview','>= 5.1.6.2')
 
